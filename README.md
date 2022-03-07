@@ -33,9 +33,10 @@ Será feita uma analise exploratória de dados, afim de analisar todos os atribu
 ## 3. Planejamento da Solução:
 
 ### 3.1. O que será entregue:
-A solução será entregue em forma de um aplicativo no Streamlit para tornar possível a visualização dos dados em forma de tabela e gráficos simplificando a analise e exploração dos dados dos imóveis.
-Sera usado também soluções de geolocalização em mapas para poder visualizar a localização dos imoveis e fazer analise dos mesmos.
-Esta aplicação sera publicada na plataforma Heroku, para poder ser acessada de maneira on-line, a qualquer hora. 
+#### A solução será entregue em forma de um aplicativo no Streamlit que será armazenada na plataforma Heroku, para poder ser acessada de maneira on-line, a qualquer hora. Esta plataforma terá gráficos e tabelas, afim de simplificar a exploração dos dados e irá conter: 
+- Geolocalização em mapas para poder visualizar a localização dos imoveis e fazer analise dos mesmos.
+- Gráficos com opções de filtro para poder filtrar e avaliar os imóveis conforme as caracteristícas desejadas. 
+- Tabelas com indicação de compra e score de precificação do imóvel.  
 
 ### 3.2. Ferramentas Usadas:
 
