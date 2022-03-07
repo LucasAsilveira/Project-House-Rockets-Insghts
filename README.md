@@ -1,6 +1,9 @@
 # Project-House-Rockets-Insights
 #STATUS: EM DESENVOLVIMENTO...
 
+![image](https://user-images.githubusercontent.com/94136773/157091399-7edfbf43-0cc3-4f15-b621-63eaebbd3870.png)
+
+
 # Contexto 
 ### Projeto de Insights de uma plataforma de compras e vendas de imóveis
 
@@ -148,7 +151,7 @@ Obtivemos um resultado favorável, conseguindo entregar ao cliente um dashboard 
 
 - Dataset usado do [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 - Este projeto foi realizado durante o curso 'DS em Produção', [Comunidade DS](https://www.comunidadedatascience.com/ds-em-producao/)
-- Imagem utilizada é de uso livre no site.
+- Imagem utilizada é de uso livre no site [unsplash](https://unsplash.com/)
 
 
 
