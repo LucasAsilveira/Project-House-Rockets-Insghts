@@ -28,7 +28,7 @@ O CEO também requisitou que foce indicado qual seriam as melhores oportunidades
 Será feita uma analise exploratória de dados, afim de analisar todos os atributos, podendo organizar em tabelas e gráficos para a analise. Tornar possível a visualização de todas as analises de maneira on-line. Assim como, sera apresentada uma tabela filtrada, contendo indicação de compra feita levando em consideração a analise de todos os atributos e insights gerados.
 
 
-## 2. Descrição das Variáveis e Premissas
+## 2. Premissas de Negócio
 
 - Foi retirado imóvel registrado com 33 banheiros, após a analise foi definido que houve possível erro de digitação. 
 - Todos os imóveis do portifólio estão em boas condiçes. 
