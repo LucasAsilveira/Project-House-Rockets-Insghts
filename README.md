@@ -114,7 +114,7 @@ Imóveis que possuem porão possuem em médio preço maior que as que não possu
 
 ### 5.3. Tabela de indicação de compras:
 A indicação de foi dada buscando imóveis com caracteristícas que geram boa precificação, foi usado como critério os que tiveram o score acima de 7 e com preço a baixo da mediana de preço de sua região. Buscando indicar imóveis com bom preços e que possuem boa características de valorização. 
-Foram encontrados 165 imóveis com nestas condições, classificados conforme o seu score. 
+Foram encontrados 165 imóveis nestas condições, classificados conforme o seu score. 
 O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalidade que será vendido.
 
 #### Segue a baixo uma amostra da tabela com os imóveis indicados:
@@ -122,9 +122,33 @@ O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalida
 
 
 ## 6. Resultados financeiros para o negócio:
+- Para fazermos estimativas financeiras que poderá ser gerado ao implementar o modelo, utilizamos as seguintes premissas:
+1. Será realizada a compra de todos os imóveis sugeridos. 
+2. Os cálculos foram realizados partindo da premissa que todos os 165 imóveis sejam adquiridos em sazonalidades favoráveis
+3. Não serão necessárias a realização de reformas para venda do imóvel.
+ 
+ #### Segue a baixo a tabela com os resultados financeiros:
+![image](https://user-images.githubusercontent.com/94136773/157054072-3eda0e8a-ffb3-49c3-8229-ebb596299479.png)
+
+
+
 
 ## 7. Conclusão:
 
+Obtivemos um resultado favorável, conseguindo entregar ao cliente um dashboard acessivel e online, com boa organização e eficiência na pesquisa dos imóveis que inicialmente estavam disponíveis para busca apenas por tabela. Ao fazer a analise de dados, foi percebido diversos insghts que poderão auxiliar nas decisões de compra e venda dos imóveis. O modelo feito conseguiu gerar uma lista com boas oportunidades de fazer bons negócios e o score poderá ser usado para achar masi oportunidades boas dentro do banco de dados disponível. 
+
 ## 8. Próximos Passos:
 
+- Coletar feedbacks sobre a Usabilidade a apârencia e possivel falhas afim de implementar melhorias. 
+- Fazer uma estimativa utilizando a sazonalidade no cálculo 
+- Fazer levantamento para possibilidade de aquisição de imóveis não reformados, visando buscar boas oportunidades de reformar e vender com boa margem de lucro.
+- Implementação futura de um modelo de machine learn para estimativa de preços. 
+
 ## 9. Referências:
+
+- Dataset usado do [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
+- Este projeto foi realizado durante o curso 'DS em Produção', [Comunidade DS](https://www.comunidadedatascience.com/ds-em-producao/)
+- Imagem utilizada é de uso livre no site.
+
+
+
