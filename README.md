@@ -1,4 +1,4 @@
-# Project-House-Rockets-Insghts
+# Project-House-Rockets-Insights
 #STATUS: EM DESENVOLVIMENTO...
 
 # Contexto 
@@ -33,10 +33,10 @@ Será feita uma analise exploratória de dados, afim de analisar todos os atribu
 ## 3. Planejamento da Solução:
 
 ### 3.1. O que será entregue:
-#### A solução será entregue em forma de um aplicativo no Streamlit que será armazenada na plataforma Heroku, para poder ser acessada de maneira on-line, a qualquer hora. Esta plataforma terá gráficos e tabelas, afim de simplificar a exploração dos dados e irá conter: 
+A solução será entregue em forma de um aplicativo no Streamlit que será armazenada na plataforma Heroku, para poder ser acessada de maneira on-line, a qualquer hora. Esta plataforma terá gráficos e tabelas, afim de simplificar a exploração dos dados e irá conter: 
 - Geolocalização em mapas para poder visualizar a localização dos imoveis e fazer analise dos mesmos.
 - Gráficos com opções de filtro para poder filtrar e avaliar os imóveis conforme as caracteristícas desejadas. 
-- Tabelas com indicação de compra e score de precificação do imóvel.  
+- Tabela com indicação de compra e score de precificação do imóvel.  
 
 ### 3.2. Ferramentas Usadas:
 
@@ -50,8 +50,16 @@ Será feita uma analise exploratória de dados, afim de analisar todos os atribu
 
 
 ### 3.3. Processo :
+- Coleta de dados: Os dados foram coletados do site Kaggle.
+- Limpeza dos Dados: Organizar e Renomear colunas, descrever os tipos, dimensão, checar dados faltantes e realizar descrição estatística, criar hipóteses de negócio criando novas variáveis para exploração destas adiante.
+- Exploração dos dados: Fazer análise gráfica das variáveis, validar as hipóteses levantadas.
+- Criar modelo de Insiths: Estimar precificação através de um score usando principais Insights encontrados. 
+- Tabela de indicação: Criar tabela com indicação de melhores oportunidades de compras. 
+- Estimativas econômicas do negócio: Fazer avaliação econômica e previsão de lucro.  
+
 
 ## 4. Principais Insights dos Dados:
+
 
 ## 5. Resultados financeiros para o negócio:
 
