@@ -17,11 +17,11 @@ O contexto é fictício, e foi utilizado para praticar minhas habilidades de des
 
 ### 1.1. Problema 
 
-O CEO da empresa gsotaria de maximizar o lucro da empresa encontrando bons negócios. A estratégia usada é encontrar casas com bom preço para compra e conseguir lucro na venda. O time de compra não consegue tomar boas decises de compras com a atual organiazação e estruturação. 
+O CEO da empresa gostaria de maximizar o lucro da empresa encontrando bons negócios. A estratégia usada é encontrar casas com bom preço para compra e conseguir lucro na venda. O time de compra não consegue tomar boas decisões de compras com a atual organização e estruturação. 
 
 ### 1.2. Causas do Problema
 
-Falta de um método para organizar, vizualizar e avaliar da melhor forma. Pois existem muitos atributos que as tornam mais ou menos atrativas aos compradores e vendedores e a localização e o período do ano também podem influenciar os preços. O portifólio é muito grande, levando muito tempo para fazer o trabalho de forma manual. 
+Falta de um método para organizar, visualizar e avaliar da melhor forma. Pois existem muitos atributos que as tornam mais ou menos atrativas aos compradores e vendedores e a localização e o período do ano também podem influenciar os preços. O portifólio é muito grande, levando muito tempo para fazer o trabalho de forma manual. 
 
 ### 1.3. Solução 
 Será feita uma analise exploratória de dados, afim de analisar todos os atributos, podendo organizar em tabelas e gráficos para a analise. Tornar possível a visualização de todas as analises de maneira on-line. 
@@ -29,7 +29,7 @@ Será feita uma analise exploratória de dados, afim de analisar todos os atribu
 
 ## 2. Descrição das Variáveis e Premissas
 
-- Foi retirado imóvel registrado com 33 banheiros, após a analise foi definido que houve possível erro de digitalção. 
+- Foi retirado imóvel registrado com 33 banheiros, após a analise foi definido que houve possível erro de digitação. 
 - Todos os imóveis do portifólio estão em boas condiçes. 
 
 
@@ -38,7 +38,7 @@ Será feita uma analise exploratória de dados, afim de analisar todos os atribu
 ### 3.1. O que será entregue:
 A solução será entregue em forma de um aplicativo no Streamlit que será armazenada na plataforma Heroku, para poder ser acessada de maneira on-line, a qualquer hora. Esta plataforma terá gráficos e tabelas, afim de simplificar a exploração dos dados e irá conter: 
 - Geolocalização em mapas para poder visualizar a localização dos imoveis e fazer analise dos mesmos.
-- Gráficos com opções de filtro para poder filtrar e avaliar os imóveis conforme as caracteristícas desejadas. 
+- Gráficos com opções de filtro para poder filtrar e avaliar os imóveis conforme as características desejadas. 
 - Tabela com indicação de compra e score de precificação do imóvel.  
 
 ### 3.2. Ferramentas Usadas:
@@ -56,16 +56,16 @@ A solução será entregue em forma de um aplicativo no Streamlit que será arma
 - Coleta de dados: Os dados foram coletados do site Kaggle.
 - Limpeza dos Dados: Organizar e Renomear colunas, descrever os tipos, dimensão, checar dados faltantes e realizar descrição estatística, criar hipóteses de negócio criando novas variáveis para exploração destas adiante.
 - Exploração dos dados: Fazer análise gráfica das variáveis, validar as hipóteses levantadas.
-- Criar modelo de Insiths: Estimar precificação através de um score usando principais Insights encontrados. 
+- Criar modelo de Insigths: Estimar precificação através de um score usando principais Insights encontrados. 
 - Tabela de indicação: Criar tabela com indicação de melhores oportunidades de compras. 
 - Estimativas econômicas do negócio: Fazer avaliação econômica e previsão de lucro.  
 
 
 ## 4. Principais Insights dos Dados:
 ### 1. Imóveis com graduação('grade') mais elevada possuem preço em média mais alto. (VERDADEIRA)
-A medida que aumenta o 'grade', que é uma medida quanto ao desigin do imóvel, o preço medio do imóvel sobe. Esta diferença é agravada acima da graduação 6.
+A medida que aumenta o 'grade', que é uma medida quanto ao design do imóvel, o preço médio do imóvel sobe. Esta diferença é agravada acima da graduação 6.
 
--Insight Gerado: Este atributo referesse ao  design e fazendo uma avaliação de todos os atributos que indicam qualidade do imóvel este foi o que melhor indicou qualidade com relação ao preço, assim foi o usado na hora de classificar a qualidade para o score de preço feito no modelo.  
+-Insight Gerado: Este atributo refere-se  ao  design e fazendo uma avaliação de todos os atributos que indicam qualidade do imóvel este foi o que melhor indicou qualidade com relação ao preço, assim foi o usado na hora de classificar a qualidade para o score de preço feito no modelo.  
 
 ### 2. Imóveis com localização de frente para o mar('waterfront') possuem preço médio mais alto. (VERDADEIRA)
 Em média os imóveis com localização 'waterfront' chegam a ter 3x mais o valor dos que não possuem esta localização. 
@@ -75,7 +75,7 @@ Em média os imóveis com localização 'waterfront' chegam a ter 3x mais o valo
 ### 3. Imóveis que já foram reformados possuem preços mais alto. (VERDADEIRO)
 Imóveis reformados tem preço em média 1.43 vezes maior.
 
-- Insight Gerado: Podemos levantar dois pontos, primeiro usar este atributo para encontrar imóveis ja reformados, que estjam com preços bons para compra. O segundo é encontrar boas oportunidades de imóveis não reformados, podendo ao fazer uma boa reforma, conseguir uma valorização de em média 40%.
+- Insight Gerado: Podemos levantar dois pontos, primeiro usar este atributo para encontrar imóveis já reformados, que estejam com preços bons para compra. O segundo é encontrar boas oportunidades de imóveis não reformados, podendo ao fazer uma boa reforma, conseguir uma valorização de em média 40%.
 
 ### 4. Imóveis que possuem porão possuem preço mais alto. (VERDADEIRO)
 Imóveis que possuem porão possuem em médio preço maior que as que não possuem. Esta relação é de 1.28 vezes maior.
@@ -98,7 +98,7 @@ Imóveis que possuem porão possuem em médio preço maior que as que não possu
 ### 5.2. Classificação por score de preço:
 #### Para definir um score de potencial de preço para cada imóvel, foi definido valores a serem adicionadoas a este score dadas as carácteristica principais que valorizam um imóvel estas definidas com base nos estudo e analise dos dados e insghts, foram eles: 
 
-- score_living: De 1 a 5, onde foram separados proporcionalmente em 5 grupos de tamanho de imóveis. Dando pontução maior para móveis com maior área interno.
+- score_living: De 1 a 5, onde foram separados proporcionalmente em 5 grupos de tamanho de imóveis. Dando pontuação maior para móveis com maior área interno.
 
 - score_grade : De 0 a 2, onde foram definidos conforme analise que percebeu que valorizações eram maiores em grades superiores a 8 e mais baixas quando inferiores a 3. 
 
@@ -116,7 +116,7 @@ Imóveis que possuem porão possuem em médio preço maior que as que não possu
 ![image](https://user-images.githubusercontent.com/94136773/157046694-3629e860-a4c0-43fe-a7a3-32cd2693ce9a.png)
 
 ### 5.3. Tabela de indicação de compras:
-A indicação de foi dada buscando imóveis com caracteristícas que geram boa precificação, foi usado como critério os que tiveram o score acima de 7 e com preço a baixo da mediana de preço de sua região. Buscando indicar imóveis com bom preços e que possuem boa características de valorização. 
+A indicação de foi dada buscando imóveis com características que geram boa precificação, foi usado como critério os que tiveram o score acima de 7 e com preço a baixo da mediana de preço de sua região. Buscando indicar imóveis com bom preços e que possuem boa características de valorização. 
 Foram encontrados 165 imóveis nestas condições, classificados conforme o seu score. 
 O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalidade que será vendido.
 
@@ -138,14 +138,14 @@ O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalida
 
 ## 7. Conclusão:
 
-Obtivemos um resultado favorável, conseguindo entregar ao cliente um dashboard acessivel e online, com boa organização e eficiência na pesquisa dos imóveis que inicialmente estavam disponíveis para busca apenas por tabela. Ao fazer a analise de dados, foi percebido diversos insghts que poderão auxiliar nas decisões de compra e venda dos imóveis. O modelo feito conseguiu gerar uma lista com boas oportunidades de fazer bons negócios e o score poderá ser usado para achar masi oportunidades boas dentro do banco de dados disponível. 
+Obtivemos um resultado favorável, conseguindo entregar ao cliente um dashboard acessível  e online, com boa organização e eficiência na pesquisa dos imóveis que inicialmente estavam disponíveis para busca apenas por tabela. Ao fazer a analise de dados, foi percebido diversos insights que poderão auxiliar nas decisões de compra e venda dos imóveis. O modelo feito conseguiu gerar uma lista com boas oportunidades de fazer bons negócios e o score poderá ser usado para achar masi oportunidades boas dentro do banco de dados disponível. 
 
 ## 8. Próximos Passos:
 
-- Coletar feedbacks sobre a Usabilidade a apârencia e possivel falhas afim de implementar melhorias. 
+- Coletar feedbacks sobre a Usabilidade a aparência e possíveis falhas afim de implementar melhorias. 
 - Fazer uma estimativa utilizando a sazonalidade no cálculo 
 - Fazer levantamento para possibilidade de aquisição de imóveis não reformados, visando buscar boas oportunidades de reformar e vender com boa margem de lucro.
-- Implementação futura de um modelo de machine learn para estimativa de preços. 
+- Implementação futura de um modelo de machine learning para estimativa de preços. 
 
 ## 9. Referências:
 
