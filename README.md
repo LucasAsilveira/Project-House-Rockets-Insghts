@@ -59,7 +59,21 @@ A solução será entregue em forma de um aplicativo no Streamlit que será arma
 
 
 ## 4. Principais Insights dos Dados:
+### 1. Imóveis com graduação('grade') mais elevada possuem preço em média mais alto.
+<b>VERDADEIRA</b> A medida que aumenta o 'grade', que é uma medida quanto ao desigin do imóvel, o preço medio do imóvel sobe. Esta diferença é agravada acima da graduação 6.
+-Insight Gerado: Este atributo referesse ao  design e fazendo uma avaliação de todos os atributos que indicam qualidade do imóvel este foi o que melhor indicou qualidade com relação ao preço, assim foi o usado na hora de classificar a qualidade para o score de preço feito no modelo.  
 
+### 2. Imóveis com localização de frente para o mar('waterfront') possuem preço médio mais alto.
+<b>VERDADEIRA</b> Em média os imóveis com localização 'waterfront' chegam a ter 3x mais o valor dos que não possuem esta localização. 
+- Insight Gerado: Este atributo é muito relevante ao preço. Ao buscar oportunidades de imóveis com preços acessíveis que possuem este atributo positivo, pode-se encontrar boas oportunidades de lucro.
+
+### 3. Imóveis que já foram reformados possuem preços mais alto.
+<b>VERDADEIRO</b> Imóveis reformados tem preço em média 1.43 vezes maior.
+- Insight Gerado: Podemos levantar dois pontos, primeiro usar este atributo para encontrar imóveis ja reformados, que estjam com preços bons para compra. O segundo é encontrar boas oportunidades de imóveis não reformados, podendo ao fazer uma boa reforma, conseguir uma valorização de em média 40%.
+
+### 4. Imóveis que possuem porão possuem preço mais alto.
+<b>VERDADEIRO</b> Imóveis que possuem porão possuem em médio preço maior que as que não possuem. Esta relação é de 1.28 vezes maior.
+- Insight Gerado: Encontrar boas oportunidades em imóveis com porão, pois este atributo sendo positivo resulta em uma valorização média de quase 30%. 
 
 ## 5. Resultados financeiros para o negócio:
 
