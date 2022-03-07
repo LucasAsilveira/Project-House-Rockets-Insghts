@@ -22,9 +22,10 @@ O CEO da empresa gostaria de maximizar o lucro da empresa encontrando bons negó
 ### 1.2. Causas do Problema
 
 Falta de um método para organizar, visualizar e avaliar da melhor forma. Pois existem muitos atributos que as tornam mais ou menos atrativas aos compradores e vendedores e a localização e o período do ano também podem influenciar os preços. O portifólio é muito grande, levando muito tempo para fazer o trabalho de forma manual. 
+O CEO também requisitou que foce indicado qual seriam as melhores oportunidades de compra e preço de possível venda destes visando o maior lucro nas negociações.
 
 ### 1.3. Solução 
-Será feita uma analise exploratória de dados, afim de analisar todos os atributos, podendo organizar em tabelas e gráficos para a analise. Tornar possível a visualização de todas as analises de maneira on-line. 
+Será feita uma analise exploratória de dados, afim de analisar todos os atributos, podendo organizar em tabelas e gráficos para a analise. Tornar possível a visualização de todas as analises de maneira on-line. Assim como, sera apresentada uma tabela filtrada, contendo indicação de compra feita levando em consideração a analise de todos os atributos e insights gerados.
 
 
 ## 2. Descrição das Variáveis e Premissas
