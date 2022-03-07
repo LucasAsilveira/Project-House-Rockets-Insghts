@@ -112,6 +112,14 @@ Imóveis que possuem porão possuem em médio preço maior que as que não possu
 #### Segue a baixo uma amostra da tabela com a estimativa de score:
 ![image](https://user-images.githubusercontent.com/94136773/157046694-3629e860-a4c0-43fe-a7a3-32cd2693ce9a.png)
 
+### 5.3. Tabela de indicação de compras:
+A indicação de foi dada buscando imóveis com caracteristícas que geram boa precificação, foi usado como critério os que tiveram o score acima de 7 e com preço a baixo da mediana de preço de sua região. Buscando indicar imóveis com bom preços e que possuem boa características de valorização. 
+Foram encontrados 165 imóveis com nestas condições, classificados conforme o seu score. 
+O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalidade que será vendido.
+
+#### Segue a baixo uma amostra da tabela com os imóveis indicados:
+![image](https://user-images.githubusercontent.com/94136773/157048942-674b206f-d6ac-45f2-916a-2af135d110a9.png)
+
 
 ## 6. Resultados financeiros para o negócio:
 
