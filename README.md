@@ -1,5 +1,4 @@
 # Project-House-Rockets-Insights
-#STATUS: EM DESENVOLVIMENTO...
 
 ![image](https://user-images.githubusercontent.com/94136773/157091399-7edfbf43-0cc3-4f15-b621-63eaebbd3870.png)
 
@@ -51,6 +50,7 @@ A solução será entregue em forma de um aplicativo no Streamlit que será arma
 - Git e Github;
 - Streamlit;
 - Heroku;
+- Power BI;
 
 
 ### 3.3. Processo :
@@ -60,6 +60,7 @@ A solução será entregue em forma de um aplicativo no Streamlit que será arma
 - Criar modelo de Insigths: Estimar precificação através de um score usando principais Insights encontrados. 
 - Tabela de indicação: Criar tabela com indicação de melhores oportunidades de compras. 
 - Estimativas econômicas do negócio: Fazer avaliação econômica e previsão de lucro.  
+- Dashboard: Desenvolver um dashboard interativo de consulta de tabela e mapas de localização.
 
 
 ## 4. Principais Insights dos Dados:
@@ -121,8 +122,10 @@ A indicação foi dada buscando imóveis com características que geram boa prec
 Foram encontrados 165 imóveis nestas condições, classificados conforme o seu score. 
 O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalidade que será vendido.
 
-#### Segue a baixo uma amostra da tabela com os imóveis indicados:
-![image](https://user-images.githubusercontent.com/94136773/157048942-674b206f-d6ac-45f2-916a-2af135d110a9.png)
+#### Segue a baixo uma imagem ilustrativa da tabela com os imóveis indicados, a lista completa pode ser acessada neste [link](https://app.powerbi.com/view?r=eyJrIjoiNjUxYzA3ZGItNGI1MC00YzdkLWFiYzctMWIzN2QyZGM2ODhhIiwidCI6Ijc1ZDUwYjU2LWY2YWUtNDUzZS1hZGU2LTc3OThmODM1ZTAwZiJ9) que da acesso ao Dashboard construido no Power BI:
+![image](https://user-images.githubusercontent.com/94136773/158084653-01c2ee6d-46c7-4609-89b6-e8928d472895.png)
+
+
 
 
 ## 6. Resultados financeiros para o negócio:
@@ -140,6 +143,8 @@ O preço de venda sugerido é de 10% a 30% o de compra, dependendo da sazonalida
 ## 7. Conclusão:
 
 Obtivemos um resultado favorável, conseguindo entregar ao cliente um dashboard acessível  e online, com boa organização e eficiência na pesquisa dos imóveis que inicialmente estavam disponíveis para busca apenas por tabela. Ao fazer a analise de dados, foi percebido diversos insights que poderão auxiliar nas decisões de compra e venda dos imóveis. O modelo feito conseguiu gerar uma lista com boas oportunidades de fazer bons negócios e o score poderá ser usado para achar masi oportunidades boas dentro do banco de dados disponível. 
+
+Um Dashboard interativo foi feito no Power BI, onde o usuário pode navegar entre as páginas, podendo fazer filtro e consultas na tabela, visualizar a localidade dos imóveis no mapa e consultar a lista de imóveis indicados para compra através do link: [Dashboard Consulta de Imóveis](https://app.powerbi.com/view?r=eyJrIjoiNjUxYzA3ZGItNGI1MC00YzdkLWFiYzctMWIzN2QyZGM2ODhhIiwidCI6Ijc1ZDUwYjU2LWY2YWUtNDUzZS1hZGU2LTc3OThmODM1ZTAwZiJ9)
 
 ## 8. Próximos Passos:
 
