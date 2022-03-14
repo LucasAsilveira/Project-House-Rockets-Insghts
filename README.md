@@ -86,7 +86,7 @@ Imóveis que possuem porão possuem em médio preço maior que as que não possu
 
 ## 5. Respondendo Questão de Negócio:
 
-## QUESTÃO: Quais são os Imóvies que a House Rockets deveria comprar e por qual preço?
+## QUESTÃO: Quais são os Imóveis que a House Rockets deveria comprar e por qual preço?
 
 ### 5.1. Estratégia utilizada:
 #### Para encontrar boas oportunidades a partir dos insigths obtidos no estudo e exploração dos dados foi usado os seguintes critérios:   
